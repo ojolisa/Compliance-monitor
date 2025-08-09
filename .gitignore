@@ -87,7 +87,24 @@ pip-wheel-metadata/
 
 # PyInstaller
 *.manifest
-*.spec
+# Remove *.spec since we need compliance-monitor-agent.spec for builds
+build/
+dist/
+
+# Executables and binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archives and packages
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# NSIS installer files
+*.nsi
 
 # Testing / Coverage
 .pytest_cache/
@@ -107,3 +124,27 @@ coverage.xml
 *.tmp
 *.bak
 ~$*
+
+# ---- Agent specific ----
+# Release builds and executables
+agent/release/*.exe
+agent/dist/
+agent/build/
+
+# Environment files (keep example files)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Windows installer files
+*.msi
+*.msix
+
+# Chocolatey build artifacts
+chocolatey/*.nupkg
+
+# Deployment artifacts
+*.zip
+*.tar.gz
+!*.example.zip

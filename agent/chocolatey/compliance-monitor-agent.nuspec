@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>compliance-monitor-agent</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/your-org/compliance-monitor</packageSourceUrl>
+    <owners>YourOrg</owners>
+    <title>Compliance Monitor Agent</title>
+    <authors>YourOrg</authors>
+    <projectUrl>https://github.com/your-org/compliance-monitor</projectUrl>
+    <iconUrl>https://github.com/your-org/compliance-monitor/raw/main/icon.png</iconUrl>
+    <copyright>2025 YourOrg</copyright>
+    <licenseUrl>https://github.com/your-org/compliance-monitor/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/your-org/compliance-monitor</projectSourceUrl>
+    <docsUrl>https://github.com/your-org/compliance-monitor/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/your-org/compliance-monitor/issues</bugTrackerUrl>
+    <tags>compliance monitoring security admin</tags>
+    <summary>Cross-platform system compliance monitoring agent</summary>
+    <description>
+Compliance Monitor Agent is a lightweight utility that monitors system compliance including:
+- Disk encryption status (BitLocker, FileVault, LUKS)
+- OS update status
+- Antivirus presence and status  
+- Sleep/screen lock policies
+- Automated reporting to central dashboard
+    </description>
+    <releaseNotes>Initial release with Windows support</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
