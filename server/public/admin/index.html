@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Compliance Monitor - Admin</title>
+  <link rel="stylesheet" href="/admin/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Compliance Monitor</h1>
+    <div class="filters">
+      <label>
+        OS:
+        <select id="filter-os">
+          <option value="">All</option>
+          <option value="Windows">Windows</option>
+          <option value="Darwin">macOS</option>
+          <option value="Linux">Linux</option>
+        </select>
+      </label>
+      <label>
+        Issues:
+        <select id="filter-issues">
+          <option value="">All</option>
+          <option value="true">Has issues</option>
+          <option value="false">No issues</option>
+        </select>
+      </label>
+      <label>
+        Search:
+        <input id="filter-q" type="search" placeholder="machine id or hostname" />
+      </label>
+      <button id="apply-filters">Apply</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="stats" class="stats"></div>
+    <table id="machines-table">
+      <thead>
+        <tr>
+          <th data-sort="hostname">Hostname</th>
+          <th data-sort="machine_id">Machine ID</th>
+          <th data-sort="os">OS</th>
+          <th data-sort="timestamp">Last check-in</th>
+          <th>Disk Encryption</th>
+          <th>OS Updates</th>
+          <th>Antivirus</th>
+          <th>Sleep Policy</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <footer>
+    <small>Admin Dashboard</small>
+  </footer>
+
+  <script src="/admin/main.js"></script>
+</body>
+</html>

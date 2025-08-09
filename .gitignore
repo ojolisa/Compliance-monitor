@@ -1,0 +1,105 @@
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code / IDEs
+.vscode/
+.vscode-test/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*.orig
+
+# ---- Logs & PIDs ----
+logs/
+log/
+*.log
+*.log.*
+*.pid
+pids/
+
+# ---- Node.js ----
+node_modules/
+.npm/
+.npmrc.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+dist/
+build/
+out/
+coverage/
+
+# Env files (keep secrets out of git)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# App-specific (server)
+server/.cache/
+server/logs/
+server/tmp/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+.eggs/
+parts/
+var/
+lib/
+lib64/
+sdist/
+develop-eggs/
+.wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.mypy_cache/
+.pyre/
+
+# ---- Misc ----
+*.tmp
+*.bak
+~$*

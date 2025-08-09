@@ -1,0 +1,1933 @@
+{
+  "reports": [
+    {
+      "machine_id": "4c4661b4-dc5d-4325-8987-62e50c5d778e",
+      "hostname": "WORKPLACE",
+      "os": "Windows",
+      "ts": 1754712108,
+      "checks": {
+        "disk_encryption": {
+          "ok": null,
+          "summary": "manage-bde failed: ",
+          "data": {},
+          "status": "unknown"
+        },
+        "os_updates": {
+          "ok": true,
+          "summary": "No pending reboot",
+          "data": {
+            "pending_reboot": false,
+            "pending_updates": null
+          },
+          "status": "ok"
+        },
+        "antivirus": {
+          "ok": true,
+          "summary": "Defender active",
+          "data": {
+            "defender": {
+              "CimClass": {
+                "CimSuperClassName": "BaseStatus",
+                "CimSuperClass": {
+                  "CimSuperClassName": null,
+                  "CimSuperClass": null,
+                  "CimClassProperties": "",
+                  "CimClassQualifiers": "locale = 1033",
+                  "CimClassMethods": "",
+                  "CimSystemProperties": "Microsoft.Management.Infrastructure.CimSystemProperties"
+                },
+                "CimClassProperties": [
+                  "AMEngineVersion = \"\"",
+                  "AMProductVersion = \"\"",
+                  "AMRunningMode = \"\"",
+                  "AMServiceEnabled = False",
+                  "AMServiceVersion = \"\"",
+                  "AntispywareEnabled = False",
+                  "AntispywareSignatureAge = 0",
+                  "AntispywareSignatureLastUpdated",
+                  "AntispywareSignatureVersion = \"\"",
+                  "AntivirusEnabled = False",
+                  "AntivirusSignatureAge = 0",
+                  "AntivirusSignatureLastUpdated",
+                  "AntivirusSignatureVersion = \"\"",
+                  "BehaviorMonitorEnabled = False",
+                  "ComputerID = \"\"",
+                  "ComputerState = 0",
+                  "DefenderSignaturesOutOfDate",
+                  "DeviceControlDefaultEnforcement = \"\"",
+                  "DeviceControlPoliciesLastUpdated",
+                  "DeviceControlState = \"\"",
+                  "FullScanAge = 0",
+                  "FullScanEndTime",
+                  "FullScanOverdue",
+                  "FullScanRequired",
+                  "FullScanSignatureVersion = \"\"",
+                  "FullScanStartTime",
+                  "InitializationProgress = \"\"",
+                  "IoavProtectionEnabled = False",
+                  "IsTamperProtected = False",
+                  "IsVirtualMachine = False",
+                  "LastFullScanSource = 0",
+                  "LastQuickScanSource = 0",
+                  "NISEnabled = False",
+                  "NISEngineVersion = \"\"",
+                  "NISSignatureAge = 0",
+                  "NISSignatureLastUpdated",
+                  "NISSignatureVersion = \"\"",
+                  "OnAccessProtectionEnabled = False",
+                  "ProductStatus = 0",
+                  "QuickScanAge = 0",
+                  "QuickScanEndTime",
+                  "QuickScanOverdue",
+                  "QuickScanSignatureVersion = \"\"",
+                  "QuickScanStartTime",
+                  "RealTimeProtectionEnabled = False",
+                  "RealTimeScanDirection = 0",
+                  "RebootRequired",
+                  "SmartAppControlExpiration = \"\"",
+                  "SmartAppControlState = \"\"",
+                  "TamperProtectionSource = \"\"",
+                  "TDTCapable = \"\"",
+                  "TDTMode = \"\"",
+                  "TDTSiloType = \"\"",
+                  "TDTStatus = \"\"",
+                  "TDTTelemetry = \"\"",
+                  "TroubleShootingDailyMaxQuota = \"\"",
+                  "TroubleShootingDailyQuotaLeft = \"\"",
+                  "TroubleShootingEndTime = \"\"",
+                  "TroubleShootingExpirationLeft = \"\"",
+                  "TroubleShootingMode = \"\"",
+                  "TroubleShootingModeSource = \"\"",
+                  "TroubleShootingQuotaResetTime = \"\"",
+                  "TroubleShootingStartTime = \"\""
+                ],
+                "CimClassQualifiers": [
+                  "dynamic = True",
+                  "locale = 1033",
+                  "provider = \"ProtectionManagement\""
+                ],
+                "CimClassMethods": [],
+                "CimSystemProperties": {
+                  "Namespace": "ROOT/Microsoft/Windows/Defender",
+                  "ServerName": "WORKPLACE",
+                  "ClassName": "MSFT_MpComputerStatus",
+                  "Path": null
+                }
+              },
+              "CimInstanceProperties": [
+                {
+                  "Name": "AMEngineVersion",
+                  "Value": "1.1.25070.4",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMProductVersion",
+                  "Value": "4.18.25070.5",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMRunningMode",
+                  "Value": "Normal",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMServiceEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMServiceVersion",
+                  "Value": "4.18.25070.5",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareSignatureAge",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareSignatureLastUpdated",
+                  "Value": "/Date(1754682102000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareSignatureVersion",
+                  "Value": "1.435.69.0",
+                  "CimType": 14,
+                  "Flags": "Property, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusSignatureAge",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusSignatureLastUpdated",
+                  "Value": "/Date(1754682102000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusSignatureVersion",
+                  "Value": "1.435.69.0",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "BehaviorMonitorEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "ComputerID",
+                  "Value": "ACCCBECD-5639-4A0D-899B-33FA9F043376",
+                  "CimType": 14,
+                  "Flags": "Property, Key, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "ComputerState",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DefenderSignaturesOutOfDate",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DeviceControlDefaultEnforcement",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DeviceControlPoliciesLastUpdated",
+                  "Value": "/Date(-11644473600000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DeviceControlState",
+                  "Value": "Disabled",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanAge",
+                  "Value": 4294967295,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanEndTime",
+                  "Value": null,
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanOverdue",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanRequired",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanSignatureVersion",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanStartTime",
+                  "Value": null,
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "InitializationProgress",
+                  "Value": "ServiceStartedSuccessfully",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "IoavProtectionEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "IsTamperProtected",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "IsVirtualMachine",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "LastFullScanSource",
+                  "Value": 0,
+                  "CimType": 2,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "LastQuickScanSource",
+                  "Value": 2,
+                  "CimType": 2,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISEngineVersion",
+                  "Value": "1.1.25070.4",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISSignatureAge",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISSignatureLastUpdated",
+                  "Value": "/Date(1754682102000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISSignatureVersion",
+                  "Value": "1.435.69.0",
+                  "CimType": 14,
+                  "Flags": "Property, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "OnAccessProtectionEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "ProductStatus",
+                  "Value": 524288,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanAge",
+                  "Value": 1,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanEndTime",
+                  "Value": "/Date(1754625761751)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanOverdue",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanSignatureVersion",
+                  "Value": "1.435.48.0",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanStartTime",
+                  "Value": "/Date(1754625679253)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "RealTimeProtectionEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "RealTimeScanDirection",
+                  "Value": 0,
+                  "CimType": 2,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "RebootRequired",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "SmartAppControlExpiration",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "SmartAppControlState",
+                  "Value": "Off",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TamperProtectionSource",
+                  "Value": "Signatures",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTCapable",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTMode",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTSiloType",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTStatus",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTTelemetry",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingDailyMaxQuota",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingDailyQuotaLeft",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingEndTime",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingExpirationLeft",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingMode",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingModeSource",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingQuotaResetTime",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingStartTime",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                }
+              ],
+              "CimSystemProperties": {
+                "Namespace": "ROOT/Microsoft/Windows/Defender",
+                "ServerName": "WORKPLACE",
+                "ClassName": "MSFT_MpComputerStatus",
+                "Path": null
+              },
+              "AMEngineVersion": "1.1.25070.4",
+              "AMProductVersion": "4.18.25070.5",
+              "AMRunningMode": "Normal",
+              "AMServiceEnabled": true,
+              "AMServiceVersion": "4.18.25070.5",
+              "AntispywareEnabled": true,
+              "AntispywareSignatureAge": 0,
+              "AntispywareSignatureLastUpdated": "/Date(1754682102000)/",
+              "AntispywareSignatureVersion": "1.435.69.0",
+              "AntivirusEnabled": true,
+              "AntivirusSignatureAge": 0,
+              "AntivirusSignatureLastUpdated": "/Date(1754682102000)/",
+              "AntivirusSignatureVersion": "1.435.69.0",
+              "BehaviorMonitorEnabled": true,
+              "ComputerID": "ACCCBECD-5639-4A0D-899B-33FA9F043376",
+              "ComputerState": 0,
+              "DefenderSignaturesOutOfDate": false,
+              "DeviceControlDefaultEnforcement": null,
+              "DeviceControlPoliciesLastUpdated": "/Date(-11644473600000)/",
+              "DeviceControlState": "Disabled",
+              "FullScanAge": 4294967295,
+              "FullScanEndTime": null,
+              "FullScanOverdue": false,
+              "FullScanRequired": false,
+              "FullScanSignatureVersion": "",
+              "FullScanStartTime": null,
+              "InitializationProgress": "ServiceStartedSuccessfully",
+              "IoavProtectionEnabled": true,
+              "IsTamperProtected": true,
+              "IsVirtualMachine": false,
+              "LastFullScanSource": 0,
+              "LastQuickScanSource": 2,
+              "NISEnabled": true,
+              "NISEngineVersion": "1.1.25070.4",
+              "NISSignatureAge": 0,
+              "NISSignatureLastUpdated": "/Date(1754682102000)/",
+              "NISSignatureVersion": "1.435.69.0",
+              "OnAccessProtectionEnabled": true,
+              "ProductStatus": 524288,
+              "QuickScanAge": 1,
+              "QuickScanEndTime": "/Date(1754625761751)/",
+              "QuickScanOverdue": false,
+              "QuickScanSignatureVersion": "1.435.48.0",
+              "QuickScanStartTime": "/Date(1754625679253)/",
+              "RealTimeProtectionEnabled": true,
+              "RealTimeScanDirection": 0,
+              "RebootRequired": false,
+              "SmartAppControlExpiration": null,
+              "SmartAppControlState": "Off",
+              "TamperProtectionSource": "Signatures",
+              "TDTCapable": "N/A",
+              "TDTMode": "N/A",
+              "TDTSiloType": "N/A",
+              "TDTStatus": "N/A",
+              "TDTTelemetry": "N/A",
+              "TroubleShootingDailyMaxQuota": "",
+              "TroubleShootingDailyQuotaLeft": "",
+              "TroubleShootingEndTime": "",
+              "TroubleShootingExpirationLeft": "",
+              "TroubleShootingMode": "",
+              "TroubleShootingModeSource": "",
+              "TroubleShootingQuotaResetTime": "",
+              "TroubleShootingStartTime": "",
+              "PSComputerName": null
+            }
+          },
+          "status": "ok"
+        },
+        "sleep_policy": {
+          "ok": null,
+          "summary": "Sleep AC=None DC=None minutes",
+          "data": {
+            "sleep_ac": null,
+            "sleep_dc": null,
+            "policy": 10
+          },
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "machine_id": "4c4661b4-dc5d-4325-8987-62e50c5d778e",
+      "hostname": "WORKPLACE",
+      "os": "Windows",
+      "ts": 1754712138,
+      "checks": {
+        "disk_encryption": {
+          "ok": null,
+          "summary": "manage-bde failed: ",
+          "data": {},
+          "status": "unknown"
+        },
+        "os_updates": {
+          "ok": true,
+          "summary": "No pending reboot",
+          "data": {
+            "pending_reboot": false,
+            "pending_updates": null
+          },
+          "status": "ok"
+        },
+        "antivirus": {
+          "ok": true,
+          "summary": "Defender active",
+          "data": {
+            "defender": {
+              "CimClass": {
+                "CimSuperClassName": "BaseStatus",
+                "CimSuperClass": {
+                  "CimSuperClassName": null,
+                  "CimSuperClass": null,
+                  "CimClassProperties": "",
+                  "CimClassQualifiers": "locale = 1033",
+                  "CimClassMethods": "",
+                  "CimSystemProperties": "Microsoft.Management.Infrastructure.CimSystemProperties"
+                },
+                "CimClassProperties": [
+                  "AMEngineVersion = \"\"",
+                  "AMProductVersion = \"\"",
+                  "AMRunningMode = \"\"",
+                  "AMServiceEnabled = False",
+                  "AMServiceVersion = \"\"",
+                  "AntispywareEnabled = False",
+                  "AntispywareSignatureAge = 0",
+                  "AntispywareSignatureLastUpdated",
+                  "AntispywareSignatureVersion = \"\"",
+                  "AntivirusEnabled = False",
+                  "AntivirusSignatureAge = 0",
+                  "AntivirusSignatureLastUpdated",
+                  "AntivirusSignatureVersion = \"\"",
+                  "BehaviorMonitorEnabled = False",
+                  "ComputerID = \"\"",
+                  "ComputerState = 0",
+                  "DefenderSignaturesOutOfDate",
+                  "DeviceControlDefaultEnforcement = \"\"",
+                  "DeviceControlPoliciesLastUpdated",
+                  "DeviceControlState = \"\"",
+                  "FullScanAge = 0",
+                  "FullScanEndTime",
+                  "FullScanOverdue",
+                  "FullScanRequired",
+                  "FullScanSignatureVersion = \"\"",
+                  "FullScanStartTime",
+                  "InitializationProgress = \"\"",
+                  "IoavProtectionEnabled = False",
+                  "IsTamperProtected = False",
+                  "IsVirtualMachine = False",
+                  "LastFullScanSource = 0",
+                  "LastQuickScanSource = 0",
+                  "NISEnabled = False",
+                  "NISEngineVersion = \"\"",
+                  "NISSignatureAge = 0",
+                  "NISSignatureLastUpdated",
+                  "NISSignatureVersion = \"\"",
+                  "OnAccessProtectionEnabled = False",
+                  "ProductStatus = 0",
+                  "QuickScanAge = 0",
+                  "QuickScanEndTime",
+                  "QuickScanOverdue",
+                  "QuickScanSignatureVersion = \"\"",
+                  "QuickScanStartTime",
+                  "RealTimeProtectionEnabled = False",
+                  "RealTimeScanDirection = 0",
+                  "RebootRequired",
+                  "SmartAppControlExpiration = \"\"",
+                  "SmartAppControlState = \"\"",
+                  "TamperProtectionSource = \"\"",
+                  "TDTCapable = \"\"",
+                  "TDTMode = \"\"",
+                  "TDTSiloType = \"\"",
+                  "TDTStatus = \"\"",
+                  "TDTTelemetry = \"\"",
+                  "TroubleShootingDailyMaxQuota = \"\"",
+                  "TroubleShootingDailyQuotaLeft = \"\"",
+                  "TroubleShootingEndTime = \"\"",
+                  "TroubleShootingExpirationLeft = \"\"",
+                  "TroubleShootingMode = \"\"",
+                  "TroubleShootingModeSource = \"\"",
+                  "TroubleShootingQuotaResetTime = \"\"",
+                  "TroubleShootingStartTime = \"\""
+                ],
+                "CimClassQualifiers": [
+                  "dynamic = True",
+                  "locale = 1033",
+                  "provider = \"ProtectionManagement\""
+                ],
+                "CimClassMethods": [],
+                "CimSystemProperties": {
+                  "Namespace": "ROOT/Microsoft/Windows/Defender",
+                  "ServerName": "WORKPLACE",
+                  "ClassName": "MSFT_MpComputerStatus",
+                  "Path": null
+                }
+              },
+              "CimInstanceProperties": [
+                {
+                  "Name": "AMEngineVersion",
+                  "Value": "1.1.25070.4",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMProductVersion",
+                  "Value": "4.18.25070.5",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMRunningMode",
+                  "Value": "Normal",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMServiceEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMServiceVersion",
+                  "Value": "4.18.25070.5",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareSignatureAge",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareSignatureLastUpdated",
+                  "Value": "/Date(1754682102000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareSignatureVersion",
+                  "Value": "1.435.69.0",
+                  "CimType": 14,
+                  "Flags": "Property, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusSignatureAge",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusSignatureLastUpdated",
+                  "Value": "/Date(1754682102000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusSignatureVersion",
+                  "Value": "1.435.69.0",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "BehaviorMonitorEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "ComputerID",
+                  "Value": "ACCCBECD-5639-4A0D-899B-33FA9F043376",
+                  "CimType": 14,
+                  "Flags": "Property, Key, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "ComputerState",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DefenderSignaturesOutOfDate",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DeviceControlDefaultEnforcement",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DeviceControlPoliciesLastUpdated",
+                  "Value": "/Date(-11644473600000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DeviceControlState",
+                  "Value": "Disabled",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanAge",
+                  "Value": 4294967295,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanEndTime",
+                  "Value": null,
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanOverdue",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanRequired",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanSignatureVersion",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanStartTime",
+                  "Value": null,
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "InitializationProgress",
+                  "Value": "ServiceStartedSuccessfully",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "IoavProtectionEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "IsTamperProtected",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "IsVirtualMachine",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "LastFullScanSource",
+                  "Value": 0,
+                  "CimType": 2,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "LastQuickScanSource",
+                  "Value": 2,
+                  "CimType": 2,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISEngineVersion",
+                  "Value": "1.1.25070.4",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISSignatureAge",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISSignatureLastUpdated",
+                  "Value": "/Date(1754682102000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISSignatureVersion",
+                  "Value": "1.435.69.0",
+                  "CimType": 14,
+                  "Flags": "Property, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "OnAccessProtectionEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "ProductStatus",
+                  "Value": 524288,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanAge",
+                  "Value": 1,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanEndTime",
+                  "Value": "/Date(1754625761751)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanOverdue",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanSignatureVersion",
+                  "Value": "1.435.48.0",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanStartTime",
+                  "Value": "/Date(1754625679253)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "RealTimeProtectionEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "RealTimeScanDirection",
+                  "Value": 0,
+                  "CimType": 2,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "RebootRequired",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "SmartAppControlExpiration",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "SmartAppControlState",
+                  "Value": "Off",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TamperProtectionSource",
+                  "Value": "Signatures",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTCapable",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTMode",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTSiloType",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTStatus",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTTelemetry",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingDailyMaxQuota",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingDailyQuotaLeft",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingEndTime",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingExpirationLeft",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingMode",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingModeSource",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingQuotaResetTime",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingStartTime",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                }
+              ],
+              "CimSystemProperties": {
+                "Namespace": "ROOT/Microsoft/Windows/Defender",
+                "ServerName": "WORKPLACE",
+                "ClassName": "MSFT_MpComputerStatus",
+                "Path": null
+              },
+              "AMEngineVersion": "1.1.25070.4",
+              "AMProductVersion": "4.18.25070.5",
+              "AMRunningMode": "Normal",
+              "AMServiceEnabled": true,
+              "AMServiceVersion": "4.18.25070.5",
+              "AntispywareEnabled": true,
+              "AntispywareSignatureAge": 0,
+              "AntispywareSignatureLastUpdated": "/Date(1754682102000)/",
+              "AntispywareSignatureVersion": "1.435.69.0",
+              "AntivirusEnabled": true,
+              "AntivirusSignatureAge": 0,
+              "AntivirusSignatureLastUpdated": "/Date(1754682102000)/",
+              "AntivirusSignatureVersion": "1.435.69.0",
+              "BehaviorMonitorEnabled": true,
+              "ComputerID": "ACCCBECD-5639-4A0D-899B-33FA9F043376",
+              "ComputerState": 0,
+              "DefenderSignaturesOutOfDate": false,
+              "DeviceControlDefaultEnforcement": null,
+              "DeviceControlPoliciesLastUpdated": "/Date(-11644473600000)/",
+              "DeviceControlState": "Disabled",
+              "FullScanAge": 4294967295,
+              "FullScanEndTime": null,
+              "FullScanOverdue": false,
+              "FullScanRequired": false,
+              "FullScanSignatureVersion": "",
+              "FullScanStartTime": null,
+              "InitializationProgress": "ServiceStartedSuccessfully",
+              "IoavProtectionEnabled": true,
+              "IsTamperProtected": true,
+              "IsVirtualMachine": false,
+              "LastFullScanSource": 0,
+              "LastQuickScanSource": 2,
+              "NISEnabled": true,
+              "NISEngineVersion": "1.1.25070.4",
+              "NISSignatureAge": 0,
+              "NISSignatureLastUpdated": "/Date(1754682102000)/",
+              "NISSignatureVersion": "1.435.69.0",
+              "OnAccessProtectionEnabled": true,
+              "ProductStatus": 524288,
+              "QuickScanAge": 1,
+              "QuickScanEndTime": "/Date(1754625761751)/",
+              "QuickScanOverdue": false,
+              "QuickScanSignatureVersion": "1.435.48.0",
+              "QuickScanStartTime": "/Date(1754625679253)/",
+              "RealTimeProtectionEnabled": true,
+              "RealTimeScanDirection": 0,
+              "RebootRequired": false,
+              "SmartAppControlExpiration": null,
+              "SmartAppControlState": "Off",
+              "TamperProtectionSource": "Signatures",
+              "TDTCapable": "N/A",
+              "TDTMode": "N/A",
+              "TDTSiloType": "N/A",
+              "TDTStatus": "N/A",
+              "TDTTelemetry": "N/A",
+              "TroubleShootingDailyMaxQuota": "",
+              "TroubleShootingDailyQuotaLeft": "",
+              "TroubleShootingEndTime": "",
+              "TroubleShootingExpirationLeft": "",
+              "TroubleShootingMode": "",
+              "TroubleShootingModeSource": "",
+              "TroubleShootingQuotaResetTime": "",
+              "TroubleShootingStartTime": "",
+              "PSComputerName": null
+            }
+          },
+          "status": "ok"
+        },
+        "sleep_policy": {
+          "ok": null,
+          "summary": "Sleep AC=None DC=None minutes",
+          "data": {
+            "sleep_ac": null,
+            "sleep_dc": null,
+            "policy": 10
+          },
+          "status": "unknown"
+        }
+      }
+    },
+    {
+      "machine_id": "4c4661b4-dc5d-4325-8987-62e50c5d778e",
+      "hostname": "WORKPLACE",
+      "os": "Windows",
+      "ts": 1754712739,
+      "checks": {
+        "disk_encryption": {
+          "ok": null,
+          "summary": "manage-bde failed: ",
+          "data": {},
+          "status": "unknown"
+        },
+        "os_updates": {
+          "ok": true,
+          "summary": "No pending reboot",
+          "data": {
+            "pending_reboot": false,
+            "pending_updates": null
+          },
+          "status": "ok"
+        },
+        "antivirus": {
+          "ok": true,
+          "summary": "Defender active",
+          "data": {
+            "defender": {
+              "CimClass": {
+                "CimSuperClassName": "BaseStatus",
+                "CimSuperClass": {
+                  "CimSuperClassName": null,
+                  "CimSuperClass": null,
+                  "CimClassProperties": "",
+                  "CimClassQualifiers": "locale = 1033",
+                  "CimClassMethods": "",
+                  "CimSystemProperties": "Microsoft.Management.Infrastructure.CimSystemProperties"
+                },
+                "CimClassProperties": [
+                  "AMEngineVersion = \"\"",
+                  "AMProductVersion = \"\"",
+                  "AMRunningMode = \"\"",
+                  "AMServiceEnabled = False",
+                  "AMServiceVersion = \"\"",
+                  "AntispywareEnabled = False",
+                  "AntispywareSignatureAge = 0",
+                  "AntispywareSignatureLastUpdated",
+                  "AntispywareSignatureVersion = \"\"",
+                  "AntivirusEnabled = False",
+                  "AntivirusSignatureAge = 0",
+                  "AntivirusSignatureLastUpdated",
+                  "AntivirusSignatureVersion = \"\"",
+                  "BehaviorMonitorEnabled = False",
+                  "ComputerID = \"\"",
+                  "ComputerState = 0",
+                  "DefenderSignaturesOutOfDate",
+                  "DeviceControlDefaultEnforcement = \"\"",
+                  "DeviceControlPoliciesLastUpdated",
+                  "DeviceControlState = \"\"",
+                  "FullScanAge = 0",
+                  "FullScanEndTime",
+                  "FullScanOverdue",
+                  "FullScanRequired",
+                  "FullScanSignatureVersion = \"\"",
+                  "FullScanStartTime",
+                  "InitializationProgress = \"\"",
+                  "IoavProtectionEnabled = False",
+                  "IsTamperProtected = False",
+                  "IsVirtualMachine = False",
+                  "LastFullScanSource = 0",
+                  "LastQuickScanSource = 0",
+                  "NISEnabled = False",
+                  "NISEngineVersion = \"\"",
+                  "NISSignatureAge = 0",
+                  "NISSignatureLastUpdated",
+                  "NISSignatureVersion = \"\"",
+                  "OnAccessProtectionEnabled = False",
+                  "ProductStatus = 0",
+                  "QuickScanAge = 0",
+                  "QuickScanEndTime",
+                  "QuickScanOverdue",
+                  "QuickScanSignatureVersion = \"\"",
+                  "QuickScanStartTime",
+                  "RealTimeProtectionEnabled = False",
+                  "RealTimeScanDirection = 0",
+                  "RebootRequired",
+                  "SmartAppControlExpiration = \"\"",
+                  "SmartAppControlState = \"\"",
+                  "TamperProtectionSource = \"\"",
+                  "TDTCapable = \"\"",
+                  "TDTMode = \"\"",
+                  "TDTSiloType = \"\"",
+                  "TDTStatus = \"\"",
+                  "TDTTelemetry = \"\"",
+                  "TroubleShootingDailyMaxQuota = \"\"",
+                  "TroubleShootingDailyQuotaLeft = \"\"",
+                  "TroubleShootingEndTime = \"\"",
+                  "TroubleShootingExpirationLeft = \"\"",
+                  "TroubleShootingMode = \"\"",
+                  "TroubleShootingModeSource = \"\"",
+                  "TroubleShootingQuotaResetTime = \"\"",
+                  "TroubleShootingStartTime = \"\""
+                ],
+                "CimClassQualifiers": [
+                  "dynamic = True",
+                  "locale = 1033",
+                  "provider = \"ProtectionManagement\""
+                ],
+                "CimClassMethods": [],
+                "CimSystemProperties": {
+                  "Namespace": "ROOT/Microsoft/Windows/Defender",
+                  "ServerName": "WORKPLACE",
+                  "ClassName": "MSFT_MpComputerStatus",
+                  "Path": null
+                }
+              },
+              "CimInstanceProperties": [
+                {
+                  "Name": "AMEngineVersion",
+                  "Value": "1.1.25070.4",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMProductVersion",
+                  "Value": "4.18.25070.5",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMRunningMode",
+                  "Value": "Normal",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMServiceEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AMServiceVersion",
+                  "Value": "4.18.25070.5",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareSignatureAge",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareSignatureLastUpdated",
+                  "Value": "/Date(1754682102000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntispywareSignatureVersion",
+                  "Value": "1.435.69.0",
+                  "CimType": 14,
+                  "Flags": "Property, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusSignatureAge",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusSignatureLastUpdated",
+                  "Value": "/Date(1754682102000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "AntivirusSignatureVersion",
+                  "Value": "1.435.69.0",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "BehaviorMonitorEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "ComputerID",
+                  "Value": "ACCCBECD-5639-4A0D-899B-33FA9F043376",
+                  "CimType": 14,
+                  "Flags": "Property, Key, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "ComputerState",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DefenderSignaturesOutOfDate",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DeviceControlDefaultEnforcement",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DeviceControlPoliciesLastUpdated",
+                  "Value": "/Date(-11644473600000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "DeviceControlState",
+                  "Value": "Disabled",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanAge",
+                  "Value": 4294967295,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanEndTime",
+                  "Value": null,
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanOverdue",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanRequired",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanSignatureVersion",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "FullScanStartTime",
+                  "Value": null,
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "InitializationProgress",
+                  "Value": "ServiceStartedSuccessfully",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "IoavProtectionEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "IsTamperProtected",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "IsVirtualMachine",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "LastFullScanSource",
+                  "Value": 0,
+                  "CimType": 2,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "LastQuickScanSource",
+                  "Value": 2,
+                  "CimType": 2,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISEngineVersion",
+                  "Value": "1.1.25070.4",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISSignatureAge",
+                  "Value": 0,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISSignatureLastUpdated",
+                  "Value": "/Date(1754682102000)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "NISSignatureVersion",
+                  "Value": "1.435.69.0",
+                  "CimType": 14,
+                  "Flags": "Property, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "OnAccessProtectionEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "ProductStatus",
+                  "Value": 524288,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanAge",
+                  "Value": 1,
+                  "CimType": 6,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanEndTime",
+                  "Value": "/Date(1754625761751)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanOverdue",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanSignatureVersion",
+                  "Value": "1.435.48.0",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "QuickScanStartTime",
+                  "Value": "/Date(1754625679253)/",
+                  "CimType": 13,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "RealTimeProtectionEnabled",
+                  "Value": true,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "RealTimeScanDirection",
+                  "Value": 0,
+                  "CimType": 2,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "RebootRequired",
+                  "Value": false,
+                  "CimType": 1,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "SmartAppControlExpiration",
+                  "Value": null,
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified, NullValue",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "SmartAppControlState",
+                  "Value": "Off",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TamperProtectionSource",
+                  "Value": "Signatures",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTCapable",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTMode",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTSiloType",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTStatus",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TDTTelemetry",
+                  "Value": "N/A",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingDailyMaxQuota",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingDailyQuotaLeft",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingEndTime",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingExpirationLeft",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingMode",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingModeSource",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingQuotaResetTime",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                },
+                {
+                  "Name": "TroubleShootingStartTime",
+                  "Value": "",
+                  "CimType": 14,
+                  "Flags": "Property, ReadOnly, NotModified",
+                  "IsValueModified": false
+                }
+              ],
+              "CimSystemProperties": {
+                "Namespace": "ROOT/Microsoft/Windows/Defender",
+                "ServerName": "WORKPLACE",
+                "ClassName": "MSFT_MpComputerStatus",
+                "Path": null
+              },
+              "AMEngineVersion": "1.1.25070.4",
+              "AMProductVersion": "4.18.25070.5",
+              "AMRunningMode": "Normal",
+              "AMServiceEnabled": true,
+              "AMServiceVersion": "4.18.25070.5",
+              "AntispywareEnabled": true,
+              "AntispywareSignatureAge": 0,
+              "AntispywareSignatureLastUpdated": "/Date(1754682102000)/",
+              "AntispywareSignatureVersion": "1.435.69.0",
+              "AntivirusEnabled": true,
+              "AntivirusSignatureAge": 0,
+              "AntivirusSignatureLastUpdated": "/Date(1754682102000)/",
+              "AntivirusSignatureVersion": "1.435.69.0",
+              "BehaviorMonitorEnabled": true,
+              "ComputerID": "ACCCBECD-5639-4A0D-899B-33FA9F043376",
+              "ComputerState": 0,
+              "DefenderSignaturesOutOfDate": false,
+              "DeviceControlDefaultEnforcement": null,
+              "DeviceControlPoliciesLastUpdated": "/Date(-11644473600000)/",
+              "DeviceControlState": "Disabled",
+              "FullScanAge": 4294967295,
+              "FullScanEndTime": null,
+              "FullScanOverdue": false,
+              "FullScanRequired": false,
+              "FullScanSignatureVersion": "",
+              "FullScanStartTime": null,
+              "InitializationProgress": "ServiceStartedSuccessfully",
+              "IoavProtectionEnabled": true,
+              "IsTamperProtected": true,
+              "IsVirtualMachine": false,
+              "LastFullScanSource": 0,
+              "LastQuickScanSource": 2,
+              "NISEnabled": true,
+              "NISEngineVersion": "1.1.25070.4",
+              "NISSignatureAge": 0,
+              "NISSignatureLastUpdated": "/Date(1754682102000)/",
+              "NISSignatureVersion": "1.435.69.0",
+              "OnAccessProtectionEnabled": true,
+              "ProductStatus": 524288,
+              "QuickScanAge": 1,
+              "QuickScanEndTime": "/Date(1754625761751)/",
+              "QuickScanOverdue": false,
+              "QuickScanSignatureVersion": "1.435.48.0",
+              "QuickScanStartTime": "/Date(1754625679253)/",
+              "RealTimeProtectionEnabled": true,
+              "RealTimeScanDirection": 0,
+              "RebootRequired": false,
+              "SmartAppControlExpiration": null,
+              "SmartAppControlState": "Off",
+              "TamperProtectionSource": "Signatures",
+              "TDTCapable": "N/A",
+              "TDTMode": "N/A",
+              "TDTSiloType": "N/A",
+              "TDTStatus": "N/A",
+              "TDTTelemetry": "N/A",
+              "TroubleShootingDailyMaxQuota": "",
+              "TroubleShootingDailyQuotaLeft": "",
+              "TroubleShootingEndTime": "",
+              "TroubleShootingExpirationLeft": "",
+              "TroubleShootingMode": "",
+              "TroubleShootingModeSource": "",
+              "TroubleShootingQuotaResetTime": "",
+              "TroubleShootingStartTime": "",
+              "PSComputerName": null
+            }
+          },
+          "status": "ok"
+        },
+        "sleep_policy": {
+          "ok": null,
+          "summary": "Sleep AC=None DC=None minutes",
+          "data": {
+            "sleep_ac": null,
+            "sleep_dc": null,
+            "policy": 10
+          },
+          "status": "unknown"
+        }
+      }
+    }
+  ]
+}
