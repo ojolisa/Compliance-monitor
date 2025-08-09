@@ -41,7 +41,7 @@
       "response": []
     },
     {
-      "name": "Report: POST /api/v1/report",
+      "name": "Report: POST /api/report",
       "request": {
         "method": "POST",
         "header": [
@@ -52,9 +52,9 @@
           "raw": "{\n  \"machine_id\": \"demo-machine\",\n  \"hostname\": \"demo-host\",\n  \"os\": \"Windows\",\n  \"timestamp\": {{timestamp}},\n  \"checks\": {\n    \"disk_encryption\": { \"status\": \"ok\", \"summary\": \"BitLocker enabled\" },\n    \"os_updates\": { \"status\": \"ok\", \"summary\": \"Up to date\" },\n    \"antivirus\": { \"status\": \"ok\", \"summary\": \"Defender active\" },\n    \"sleep_policy\": { \"status\": \"issue\", \"summary\": \"Sleep > 10m\" }\n  }\n}"
         },
         "url": {
-          "raw": "{{baseUrl}}/api/v1/report",
+          "raw": "{{baseUrl}}/api/report",
           "host": ["{{baseUrl}}"],
-          "path": ["api", "v1", "report"]
+          "path": ["api", "report"]
         }
       },
       "event": [
@@ -71,40 +71,40 @@
       "response": []
     },
     {
-      "name": "List machines: GET /api/v1/machines",
+      "name": "List machines: GET /api/machines",
       "request": {
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{baseUrl}}/api/v1/machines",
+          "raw": "{{baseUrl}}/api/machines",
           "host": ["{{baseUrl}}"],
-          "path": ["api", "v1", "machines"]
+          "path": ["api", "machines"]
         }
       },
       "response": []
     },
     {
-      "name": "Export CSV: GET /api/v1/export.csv",
+      "name": "Export CSV: GET /api/export.csv",
       "request": {
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{baseUrl}}/api/v1/export.csv",
+          "raw": "{{baseUrl}}/api/export.csv",
           "host": ["{{baseUrl}}"],
-          "path": ["api", "v1", "export.csv"]
+          "path": ["api", "export.csv"]
         }
       },
       "response": []
     },
     {
-      "name": "Machine history: GET /api/v1/machines/:id",
+      "name": "Machine history: GET /api/machines/:id",
       "request": {
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{baseUrl}}/api/v1/machines/{{machineId}}",
+          "raw": "{{baseUrl}}/api/machines/{{machineId}}",
           "host": ["{{baseUrl}}"],
-          "path": ["api", "v1", "machines", "{{machineId}}"]
+          "path": ["api", "machines", "{{machineId}}"]
         }
       },
       "variable": [ { "key": "machineId", "value": "demo-machine" } ],
