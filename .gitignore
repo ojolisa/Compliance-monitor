@@ -53,6 +53,10 @@ server/.cache/
 server/logs/
 server/tmp/
 
+# Server runtime data (do not commit local DB)
+server/data/
+!server/data/.gitkeep
+
 # ---- Python ----
 __pycache__/
 *.py[cod]
