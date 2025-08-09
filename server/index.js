@@ -34,7 +34,7 @@ app.use('/api', (req, res, next) => {
   next();
 });
 
-app.post('/api/v1/report', async (req, res) => {
+app.post('/api/report', async (req, res) => {
   const { machine_id, hostname, os, timestamp, checks } = req.body || {};
   if (!machine_id || !timestamp || !checks) {
     return res.status(400).json({ error: 'Missing fields' });
@@ -85,13 +85,13 @@ function getLatestPerMachine(filters = {}) {
   return result;
 }
 
-app.get('/api/v1/machines', (req, res) => {
+app.get('/api/machines', (req, res) => {
   const { os, hasIssues, q } = req.query;
   const data = getLatestPerMachine({ os, hasIssues, q });
   res.json({ count: data.length, items: data });
 });
 
-app.get('/api/v1/export.csv', (req, res) => {
+app.get('/api/export.csv', (req, res) => {
   const { os, hasIssues, q } = req.query;
   const data = getLatestPerMachine({ os, hasIssues, q });
   const headers = [
@@ -119,7 +119,7 @@ app.get('/api/v1/export.csv', (req, res) => {
   res.send(rows.join('\n'));
 });
 
-app.get('/api/v1/machines/:id', (req, res) => {
+app.get('/api/machines/:id', (req, res) => {
   const id = req.params.id;
   const rows = db.data.reports
     .filter((r) => r.machine_id === id)
