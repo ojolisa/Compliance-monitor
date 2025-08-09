@@ -98,7 +98,115 @@ CM_DRY_RUN=false           # Test mode without sending data
 4. **Access the dashboard:**
    Open `http://localhost:3000/admin` in your browser
 
-## 🔧 Configuration
+## � Primary Commands
+
+### **API Server (Backend)**
+
+```bash
+# Navigate to server directory
+cd server
+
+# Install dependencies (first time only)
+npm install
+
+# Start the server
+npm start
+
+# Development mode with auto-reload
+npm run dev
+```
+
+**Alternative direct command:**
+
+```bash
+node index.js
+```
+
+**Access points:**
+
+- API: `http://localhost:3000/api/`
+- Admin Dashboard: `http://localhost:3000/admin`
+
+### **Agent (Client)**
+
+**For Development/Testing:**
+
+```bash
+# Navigate to agent directory
+cd agent
+
+# Install dependencies (first time only)
+pip install -r requirements.txt
+
+# Run once (test mode)
+python main.py
+
+# Run in dry-run mode (no data sent)
+python main.py  # with CM_DRY_RUN=true in .env
+
+# Run in verbose mode
+python main.py  # with CM_VERBOSE=true in .env
+```
+
+**For Production (Windows):**
+
+```powershell
+# Run the built executable
+.\compliance-monitor-agent.exe
+
+# Install as Windows service
+powershell -ExecutionPolicy Bypass -File install.ps1
+```
+
+### **Build System**
+
+**Cross-platform build helper:**
+
+```bash
+# Navigate to agent directory
+cd agent
+
+# Install all dependencies and build
+python make.py
+
+# Individual commands
+python make.py install-deps  # Install dependencies
+python make.py clean        # Clean build artifacts
+python make.py build        # Build executable
+python make.py package      # Create distribution package
+```
+
+**Direct build script:**
+
+```bash
+python build.py
+```
+
+**Windows-specific build:**
+
+```batch
+# Run the Windows batch file
+build-windows.bat
+```
+
+### **Quick Start Sequence**
+
+```bash
+# 1. Start the server
+cd server
+npm install
+npm start
+
+# 2. In another terminal - test the agent
+cd ../agent
+pip install -r requirements.txt
+python main.py  # Configure .env first with CM_ONCE=true
+
+# 3. Build executable (optional)
+python build.py
+```
+
+## �🔧 Configuration
 
 ### Agent Environment Variables
 
